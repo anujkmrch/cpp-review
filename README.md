@@ -13,7 +13,8 @@ I will add the project and classes description on the fly in ordered list.
       //Creating DateTime object
       DateTime dt;
       string line(50,'-');
-      cout << dt.getDatetime()->tm_hour << " : " << dt.getDatetime()->tm_min << " : " << dt.getDatetime()->tm_sec << endl;
+      cout << dt.getDatetime()->tm_hour << " : " << dt.getDatetime()->tm_min << " : " 
+           << dt.getDatetime()->tm_sec << endl;
       cout << line << endl;
       //Declaring Car object with differet type of constructors
       Car car1("Car one",40,2.1); // constructor with 3 arguments
